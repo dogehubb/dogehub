@@ -1,0 +1,53 @@
+
+.name{
+    margin-left: 1rem;
+}
+.about_img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding-top: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    background-color: #3d3d3d9f;
+    margin-bottom: 2rem;
+}
+.about_info{
+    margin-left: 1rem;
+}
+.about_human{
+    width: 20rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.download_btn{
+    background-color: #e7c86c;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding: .3rem .6rem;
+    transition:all .2s;
+    border: 2px solid #e7c86c;
+
+    text-transform: uppercase;
+}
+.download_btn:hover{
+    background-color: #3d3d3d;
+    color: #e7c86c;
+}
+@media only screen and (min-width: 980px) {
+    .container{
+        width: 30rem;
+        margin-top: 7rem;
+        margin: auto;
+    }
+    .about_human{
+        display: none;
+    }
+}
